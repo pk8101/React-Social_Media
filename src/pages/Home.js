@@ -1,7 +1,7 @@
 import React from 'react'
-
+import Topbar from '../components/topbar/Topbar'
 export default function Home() {
   return (
-    <div>Hi Pradeep home</div>
+    <div> <Topbar/></div>
   )
 }
