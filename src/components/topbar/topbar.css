@@ -8,7 +8,7 @@
     position: sticky;
 }
 .logo{
-    font-size: 24px;
+    font-size: 20px;
     margin-left: 20px;
     font-weight: bold;
     cursor: pointer;
@@ -39,13 +39,48 @@
 }
 .topbarCenter{
     flex: 5;
+    margin-right: 15px;
 }
 .topbarRight{
     flex: 4;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    color: white;
 }
-
+.topbarLink{
+    margin-right: 10px;
+    font-size: 14px;
+    cursor: pointer;
+}
+.topbarIcons{
+    display: flex;
+}
+.topbaricon{
+    margin-right: 15px;
+    cursor: pointer;
+    position: relative;
+}
+.topbarIconBadges{
+    width: 15px;
+    height: 15px;
+    background-color: red;
+    border-radius: 50%;
+    color: white;
+    position: absolute;
+    top: -5px;
+    right: -5px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 12px;
+     
+}
 .topbarImg{
     border-radius: 50%;
     height: 32px;
     width: 32px;
+    object-fit: cover;
+    cursor: pointer;
+    margin-right: 20px;
 }
