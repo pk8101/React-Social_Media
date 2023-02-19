@@ -1,13 +1,14 @@
 .share{
-    width: 80%;
+    width: 48vw;
     height: 170px;
     border-radius: 25px;
     box-shadow: 1px 3px 5px 11px rgba(0,0,0,0.14);
     -webkit-box-shadow: 1px 3px 5px 11px rgba(0,0,0,0.14);
     -moz-box-shadow: 1px 3px 5px 11px rgba(0,0,0,0.14);
-    margin-top: 20px;
-    margin-left: 30px;
+    /* margin-top: 20px;
+    margin-left: 30px; */
     padding: 10px;
+    margin: 20px;
 }
 .shareWrapper{
     padding: 10px;
