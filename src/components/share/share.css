@@ -42,29 +42,30 @@
 }
 .shareOptions{
     display: flex;
+    flex-direction: row;
     align-items: center;
     margin-left: 30px;
 }
 .shareoption{
     display: flex;
     align-items: center;
-    margin-right: 15px;
+    margin-right: 1.5vw;
     cursor: pointer;
 }
 
 .shareIcon{
     font-style: 18px;
-    margin-right: 3px;
+    margin-right: 0.2vw;
 }
 
 .shareButton{
     border: none;
     padding: 7px;
-    width: 75px;
+    width: 7vw;
     border-radius: 10px;
     background-color: green;
     font-weight: 400;
-    margin-right: 25px;
+    margin-right: 2.5vw;
     cursor: pointer;
     color: white;
 }
