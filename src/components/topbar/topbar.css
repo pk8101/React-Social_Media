@@ -6,6 +6,7 @@
     top: 0;
     align-items: center;
     position: sticky;
+    z-index: 900;
 }
 .logo{
     font-size: 3.5vh;
